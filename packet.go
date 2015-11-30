@@ -3,6 +3,7 @@ package gmf
 /*
 
 #cgo pkg-config: libavcodec
+#cgo CFLAGS: -Wno-deprecated-declarations
 
 #include "libavcodec/avcodec.h"
 
